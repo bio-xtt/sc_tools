@@ -42,14 +42,22 @@ R source-code of the ScType algorithm is available at https://github.com/Ianevsk
  
 
 ## single-cell epigenomic tools
+### tools
 ##### EpiScanpy: integrated single-cell epigenomic analysis(NC 2021)
 (https://www.nature.com/articles/s41467-021-25131-3)
 EpiScanpy is a toolkit for the analysis of single-cell epigenomic data, namely single-cell DNA methylation and single-cell ATAC-seq data. To address the modality specific challenges from epigenomics data, epiScanpy quantifies the epigenome using multiple feature space constructions and builds a nearest neighbour graph using epigenomic distance between cells. EpiScanpy makes the many existing scRNA-seq workflows from scanpy available to large-scale single-cell data from other -omics modalities, including methods for common clustering, dimension reduction, cell type identification and trajectory learning techniques, as well as an atlas integration tool for scATAC-seq datasets. The toolkit also features numerous useful downstream functions, such as differential methylation and differential openness calling, mapping epigenomic features of interest to their nearest gene, or constructing gene activity matrices using chromatin openness. We successfully benchmark epiScanpy against other scATAC-seq analysis tools and show its outperformance at discriminating cell types.
-
 ###### access
 https://github.com/colomemaria/epiScanpy, https://colomemaria.github.io/episcanpy_doc
 
+##### scMethBank: a database for single-cell whole genome DNA methylation maps(NAR 2022)
+https://academic.oup.com/nar/article/50/D1/D380/6376025?searchresult=1#325783260
+scMethBank, the first open access and comprehensive database dedicated to the collection, integration, analysis and visualization of single-cell DNA methylation data and metadata.Current release of scMethBank includes processed single-cell bisulfite sequencing data and curated metadata of 8328 samples derived from 15 public single-cell datasets, involving two species (human and mouse), 29 cell types and two diseases. 
+###### access
+ https://ngdc.cncb.ac.cn/methbank/scm/
 
+
+
+### methods
 ##### MIRA: joint regulatory modeling of multimodal expression and chromatin accessibility in single cells(NM 2022)
 (https://www.nature.com/articles/s41592-022-01595-z)
 Rigorously comparing gene expression and chromatin accessibility in the same single cells could illuminate the logic of how coupling or decoupling of these mechanisms regulates fate commitment. Here we present MIRA, probabilistic multimodal models for integrated regulatory analysis, a comprehensive methodology that systematically contrasts transcription and accessibility to infer the regulatory circuitry driving cells along cell state trajectories. MIRA leverages topic modeling of cell states and regulatory potential modeling of individual gene loci. MIRA thereby represents cell states in an efficient and interpretable latent space, infers high-fidelity cell state trees, determines key regulators of fate decisions at branch points and exposes the variable influence of local accessibility on transcription at distinct loci. Applied to epidermal differentiation and embryonic brain development from two different multimodal platforms, MIRA revealed that early developmental genes were tightly regulated by local chromatin landscape whereas terminal fate genes were titrated without requiring extensive chromatin remodeling.
