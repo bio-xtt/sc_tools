@@ -26,6 +26,18 @@ https://www.nature.com/articles/s41467-022-33758-z
 Here, we present scJoint, a transfer learning method to integrate atlas-scale, heterogeneous collections of scRNA-seq and scATAC-seq data. scJoint leverages information from annotated scRNA-seq data in a semisupervised framework and uses a neural network to simultaneously train labeled and unlabeled data, allowing label transfer and joint visualization in an integrative framework. 
 ###### access
 https://github.com/SydneyBioX/scJoint 
+
+##### Deep learning of cross-species single-cell landscapes identifies conserved regulatory programs underlying cell types(2022 NG)
+(https://www.nature.com/articles/s41588-022-01197-7)
+Nvwa (the name of a mother god in ancient Chinese legend),a deep-learning-based strategy, to predict gene expression from DNA sequence in individual cells. Finally, we interpreted the cell-type-specific sequence rules and identified regulatory programs conserved across species. 
+###### access
+https://github.com/JiaqiLiZju/Nvwa/
+
+##### Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data (2022 NC)
+(https://www.nature.com/articles/s41467-022-28803-w)
+ScType is a computational platform, which enables data-driven, fully-automated and ultra-fast cell-type identification based solely on given scRNA-seq data, combined with our comprehensive cell marker database as background information.
+###### access
+R source-code of the ScType algorithm is available at https://github.com/IanevskiAleksandr/sc-type/. ScType is also freely available as an interactive web-tool at http://sctype.app. 
  
  
 
@@ -44,8 +56,22 @@ Rigorously comparing gene expression and chromatin accessibility in the same sin
 ###### access
 MIRA is available as a Python package at https://github.com/cistrome/MIRA. Frankencell, a Python program we developed to generate synthetic differentiation trajectories for benchmarking, is available at https://github.com/AllenWLynch/frankencell-dynverse.
 
+##### scBasset: sequence-based modeling of single-cell ATAC-seq using convolutional neural networks(NM 2022)
+(https://www.nature.com/articles/s41592-022-01562-8)
+Here we introduce scBasset, a sequence-based convolutional neural network method to model scATAC data. We show that by leveraging the DNA sequence information underlying accessibility peaks and the expressiveness of a neural network model, scBasset achieves state-of-the-art performance across a variety of tasks on scATAC and single-cell multiome datasets, including cell clustering, scATAC profile denoising, data integration across assays and transcription factor activity inference.
+###### access
+https://github.com/calico/scBasset
+
+##### Predictive modeling of single-cell DNA methylome data enhances integration with transcriptome data(2020 genome research)
+(https://genome.cshlp.org/content/31/1/101.full?sid=7bc26163-4a2c-40cd-a46c-48a3b62f6d49)
+MAPLE, a computational framework that learns the association between DNA methylation and expression using both gene- and cell-dependent statistical features. Using multiple data sets generated with different experimental protocols, we show that using predicted gene activity values significantly improves several analysis tasks, including clustering, cell type identification, and integration with transcriptome data. 
+###### access
+https://github.com/tanlabcode/MAPLE.1.0
+
+
 
 ## ST tools
+### methods
 ##### Knowledge-graph-based cell-cell communication inference for spatially resolved transcriptomic data with SpaTalk(2022 NC)
 (https://www.nature.com/articles/s41467-022-32111-8)
 Spatially resolved transcriptomics provides genetic information in space toward elucidation of the spatial architecture in intact organs and the spatially resolved cell-cell communications mediating tissue homeostasis, development, and disease. To facilitate inference of spatially resolved cell-cell communications, we here present SpaTalk, which relies on a graph network and knowledge graph to model and score the ligand-receptor-target signaling network between spatially proximal cells by dissecting cell-type composition through a non-negative linear model and spatial mapping between single-cell transcriptomic and spatially resolved transcriptomic data. The benchmarked performance of SpaTalk on public single-cell spatial transcriptomic datasets is superior to that of existing inference methods. Then we apply SpaTalk to STARmap, Slide-seq, and 10X Visium data, revealing the in-depth communicative mechanisms underlying normal and disease tissues with spatial structure. SpaTalk can uncover spatially resolved cell-cell communications for single-cell and spot-based spatially resolved transcriptomic data universally, providing valuable insights into spatial inter-cellular tissue dynamics.
@@ -53,9 +79,17 @@ Spatially resolved transcriptomics provides genetic information in space toward 
 https://github.com/ZJUFanLab/SpaTalk
 
 
+##### Region-specific denoising identifies spatial co-expression patterns and intra-tissue heterogeneity in spatially resolved transcriptomics data(2022 NC)
+(https://www.nature.com/articles/s41467-022-34567-0)
+a computational tool called Missing-value Imputation and in silico region detection for Spatially resolved Transcriptomics (MIST). MIST detects tissue regions based on their molecular content by maintaining neighboring spots that are both molecularly similar and physically adjacent. Assuming each detected molecular region has a limited number of cell types, MIST then denoises the missing values by approximating a low-rank gene expression matrix through nuclear-norm minimization algorithm
+###### access
+https://github.com/linhuawang/MIST.git
 
-
-
+##### Cell2location maps fine-grained cell types in spatial transcriptomics(2022 NBT)
+(https://www.nature.com/articles/s41587-021-01139-4)
+Here we present сell2location, a Bayesian model that can resolve fine-grained cell types in spatial transcriptomic data and create comprehensive cellular maps of diverse tissues. Cell2location accounts for technical sources of variation and borrows statistical strength across locations, thereby enabling the integration of single-cell and spatial transcriptomics with higher sensitivity and resolution than existing tools.
+###### access
+https://github.com/BayraktarLab/cell2location/
 
 
 
