@@ -127,7 +127,7 @@ MAPLE, a computational framework that learns the association between DNA methyla
 ###### access
 https://github.com/tanlabcode/MAPLE.1.0
 
-##### scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies
+##### scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies(GB 2022)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02785-w
 we propose scGWAS (scRNA-seq assisted GWAS analysis) to investigate the transcriptional changes of genetic variants in specific cell type contexts by leveraging a wide variety of gene–gene relationships in the human genome. scGWAS can not only identify the genetically mediated associations between cell types and traits but also construct the biological networks that are overrepresented with disease risk genes and transcriptionally active genes in a cell type. As shown below, scGWAS utilizes only the average gene expression for each cell type, which makes it scalable to large scRNA-seq datasets. 
 ###### access
