@@ -45,6 +45,29 @@ CellWalker, a method that integrates single-cell open chromatin (scATAC-seq) dat
 ###### access
 https://github.com/PollardLab/CellWalker 
  
+##### BRIE2: computational identification of splicing phenotypes from single-cell transcriptomic experiments(GB 2021)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02461-5#availability-of-data-and-materials
+However, the intrinsic coverage limitations of scRNA-seq technologies make it challenging to associate specific splicing events to cell-level phenotypes. BRIE2 is a scalable computational method that resolves these issues by regressing single-cell transcriptomic data against cell-level features. 
+###### access
+https://pypi.org/project/brie/ 
+
+##### scSTEM: clustering pseudotime ordered single-cell data(GB 2021)
+We develop scSTEM, single-cell STEM, a method for clustering dynamic profiles of genes in trajectories inferred from pseudotime ordering of single-cell RNA-seq (scRNA-seq) data. s
+###### access
+https://github.com/alexQiSong/scSTEM
+ 
+##### Specific splice junction detection in single cells with SICILIAN(GB 2021)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02434-8
+Precise splice junction calls are currently unavailable in scRNA-seq pipelines such as the 10x Chromium platform but are critical for understanding single-cell biology. Here, we introduce SICILIAN, a new method that assigns statistical confidence to splice junctions from a spliced aligner to improve precision. SICILIAN is a general method that can be applied to bulk or single-cell data, but has particular utility for single-cell analysis due to that data’s unique challenges and opportunities for discovery. SICILIAN’s precise splice detection achieves high accuracy on simulated data, improves concordance between matched single-cell and bulk datasets, and increases agreement between biological replicates.
+###### access
+ https://github.com/salzmanlab/SICILIAN
+ 
+##### pipeComp, a general framework for the evaluation of computational pipelines, reveals performant single cell RNA-seq preprocessing tools(GB 2020) 
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02136-7
+We present pipeComp (), a flexible R framework for pipeline comparison handling interactions between analysis steps and relying on multi-level evaluation metrics.
+###### access
+https://github.com/plger/pipeComp 
+ 
  
 ### tools
 ##### scIMC: a platform for benchmarking comparison and visualization analysis of scRNA-seq data imputation methods(NAR 2022)
@@ -133,7 +156,18 @@ we propose scGWAS (scRNA-seq assisted GWAS analysis) to investigate the transcri
 ###### access
 The scGWAS package is available at GitHub
 
+##### Regulatory analysis of single cell multiome gene expression and chromatin accessibility data with scREG(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02682-2
+We develop scREG, a dimension reduction methodology, based on the concept of cis-regulatory potential, for single cell multiome data. This concept is further used for the construction of subpopulation-specific cis-regulatory networks. The capability of inferring useful regulatory network is demonstrated by the two-fold increment on network inference accuracy compared to the Pearson correlation-based method and the 27-fold enrichment of GWAS variants for inflammatory bowel disease in the cis-regulatory elements. The R package scREG provides comprehensive functions for single cell multiome data analysis.
+###### access
+https://github.com/Durenlab/RegNMF 
 
+##### CellPhy: accurate and fast probabilistic inference of single-cell phylogenies from scDNA-seq data(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02583-w
+We introduce CellPhy, a maximum likelihood framework for inferring phylogenetic trees from somatic single-cell single-nucleotide variants. CellPhy leverages a finite-site Markov genotype model with 16 diploid states and considers amplification error and allelic dropout.
+###### access
+https://github.com/amkozlov/cellphy
+ 
 
 ## ST tools
 ### methods
@@ -170,6 +204,14 @@ the source code of mistyR is publicly available from Bioconductor
 ##### Phiclust: a clusterability measure for single-cell transcriptomics reveals phenotypic subpopulations(GB 2022)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02590-x
  phiclust (ϕclust), a clusterability measure derived from random matrix theory that can be used to identify cell clusters with non-random substructure, testably leading to the discovery of previously overlooked phenotypes.
+
+##### BASS: multi-scale and multi-sample analysis enables accurate cell type clustering and spatial domain detection in spatial transcriptomic studies(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02734-7
+Spatial transcriptomic studies are reaching single-cell spatial resolution, with data often collected from multiple tissue sections. Here, we present a computational method, BASS, that enables multi-scale and multi-sample analysis for single-cell resolution spatial transcriptomics. BASS performs cell type clustering at the single-cell scale and spatial domain detection at the tissue regional scale, with the two tasks carried out simultaneously within a Bayesian hierarchical modeling framework. 
+###### access
+https://www.starmapresources.org/data 
+
+
 
 ### tools
 ##### Giotto: a toolbox for integrative analysis and visualization of spatial expression data(GB 2022)
@@ -230,11 +272,15 @@ https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1928-4
 scMAGeCK, a computational framework to identify genomic elements associated with multiple expression-based phenotypes in CRISPR/Cas9 functional screening that uses single-cell RNA-seq as readout. scMAGeCK outperforms existing methods, identifies genes and enhancers with known and novel functions in cell proliferation, and enables an unbiased construction of genotype-phenotype network.Collectively, scMAGeCK is a novel tool to study genotype-phenotype relationships at a single-cell level.
 ###### access
 
+##### Single-cell diploid Hi-C reveals the role of spatial aggregations in complex rearrangements and KMT2A fusions in leukemia(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02740-9
+By analyzing published single-cell diploid Hi-C datasets, we find partner genes fused in leukemia exhibit smaller spatial distances than those fused in solid tumor and control gene pairs. Intriguingly, multiple partners tend to colocalize with KMT2A in the same cell. 
 
+##### scTAM-seq enables targeted high-confidence analysis of DNA methylation in single cells(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02796-7
+Single-cell DNA methylation profiling currently suffers from excessive noise and/or limited cellular throughput. We developed scTAM-seq, a targeted bisulfite-free method for profiling up to 650 CpGs in up to 10,000 cells per experiment, with a dropout rate as low as 7%. 
 
-
-
-
+##### 
 
 
 
