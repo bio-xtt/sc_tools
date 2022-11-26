@@ -14,7 +14,7 @@ In tandem to scPipeline, we developed the scMiko R package that comprises a coll
 ###### access
 The scMiko R package (https://github.com/NMikolajewicz/scMiko) and scPipeline scripts (https://github.com/NMikolajewicz/scPipeline) are available on GitHub. Step-by-step tutorials and documentation are also provided at https://nmikolajewicz.github.io/scMiko/.
 
-### data integration methods
+### methods
 ##### Online single-cell data integration through projecting heterogeneous datasets into a common cell-embedding space(NC 2022)
 https://www.nature.com/articles/s41467-022-33758-z
  SCALEX, a deep-learning method that integrates single-cell data by projecting cells into a batch-invariant, common cell-embedding space in a truly online manner. SCALEX substantially outperforms online iNMF and other state-of-the-art non-online integration methods on benchmark single-cell datasets of diverse modalities.The online data integration capacity and superior performance makes SCALEX particularly appropriate for large-scale single-cell applications to build upon previous scientific insights.
@@ -39,12 +39,38 @@ ScType is a computational platform, which enables data-driven, fully-automated a
 ###### access
 R source-code of the ScType algorithm is available at https://github.com/IanevskiAleksandr/sc-type/. ScType is also freely available as an interactive web-tool at http://sctype.app. 
  
+##### CellWalker integrates single-cell and bulk data to resolve regulatory elements across cell types in complex tissues(GB 2021)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02279-1
+CellWalker, a method that integrates single-cell open chromatin (scATAC-seq) data with gene expression (RNA-seq) and other data types using a network model that simultaneously improves cell labeling in noisy scATAC-seq and annotates cell type-specific regulatory elements in bulk data. 
+###### access
+https://github.com/PollardLab/CellWalker 
+ 
+ 
 ### tools
 ##### scIMC: a platform for benchmarking comparison and visualization analysis of scRNA-seq data imputation methods(NAR 2022)
 (https://academic.oup.com/nar/article/50/9/4877/6582166?searchresult=1)
 scIMC (single-cell Imputation Methods Comparison platform), the first online platform that integrates all available state-of-the-art imputation methods for benchmarking comparison and visualization analysis.
 ###### access
 https://server.wei-group.net/scIMC/
+
+##### TraSig: inferring cell-cell interactions from pseudotime ordering of scRNA-Seq data(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02629-7
+TraSig, a computational method for improving the inference of cell-cell interactions in scRNA-Seq studies that utilizes the dynamic information to identify significant ligand-receptor pairs with similar trajectories, which in turn are used to score interacting cell clusters. 
+###### access
+https://github.com/doraadong/TraSig.
+ 
+##### scDART: integrating unmatched scRNA-seq and scATAC-seq data and learning cross-modality relationship simultaneously(GB 2022) 
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02706-x
+ scDART, a deep learning framework that integrates scRNA-seq and scATAC-seq data and learns cross-modalities relationships simultaneously. Specifically, the design of scDART allows it to preserve cell trajectories in continuous cell populations and can be applied to trajectory inference on integrated data.
+###### access
+https://github.com/PeterZZQ/scDART
+
+##### scAI: an unsupervised approach for the integrative analysis of parallel single-cell transcriptomic and epigenomic profiles
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1932-8
+Here, we present a single-cell aggregation and integration (scAI) approach to integrate transcriptomic and epigenomic profiles (i.e., chromatin accessibility or DNA methylation) that are derived from the same cells. Unlike existing integration methods , scAI takes into consideration the extremely sparse and near-binary nature of single-cell epigenomic data. Through iterative learning in an unsupervised manner, scAI aggregates epigenomic data in subgroups of cells that exhibit similar gene expression and epigenomic profiles.Those similar cells are computed through learning a cell-cell similarity matrix simultaneously from both transcriptomic and aggregated epigenomic data using a unified matrix factorization model. 
+###### access
+MATLAB package: https://github.com/amsszlh/scAI  and R package: https://github.com/sqjin/scAI
+
 
  
 ### database
@@ -75,6 +101,11 @@ scMethBank, the first open access and comprehensive database dedicated to the co
 ###### access
  https://ngdc.cncb.ac.cn/methbank/scm/
 
+##### The Neuroscience Multi-Omic Archive: a BRAIN Initiative resource for single-cell transcriptomic and epigenomic data from the mammalian brain(NAR 2022) 
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac962/6786191?searchresult=1
+Neuroscience Multi-Omic Archive (NeMO Archive; nemoarchive.org), which serves as the primary repository for genomics data from the BRAIN Initiative. Working closely with other BRAIN Initiative researchers, we have organized these data into a continually expanding, curated repository, which contains transcriptomic and epigenomic data from over 50 million brain cells, including single-cell genomic data from all of the major regions of the adult and prenatal human and mouse brains, as well as substantial single-cell genomic data from non-human primates.
+###### access
+Data resources described in this manuscript are available in the NeMO Archive (https://nemoarchive.org/) and NeMO Analytics (https://nemoanalytics.org/).
 
 
 ### methods
@@ -96,6 +127,12 @@ MAPLE, a computational framework that learns the association between DNA methyla
 ###### access
 https://github.com/tanlabcode/MAPLE.1.0
 
+##### scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02785-w
+we propose scGWAS (scRNA-seq assisted GWAS analysis) to investigate the transcriptional changes of genetic variants in specific cell type contexts by leveraging a wide variety of gene–gene relationships in the human genome. scGWAS can not only identify the genetically mediated associations between cell types and traits but also construct the biological networks that are overrepresented with disease risk genes and transcriptionally active genes in a cell type. As shown below, scGWAS utilizes only the average gene expression for each cell type, which makes it scalable to large scRNA-seq datasets. 
+###### access
+The scGWAS package is available at GitHub
+
 
 
 ## ST tools
@@ -105,7 +142,6 @@ https://github.com/tanlabcode/MAPLE.1.0
 Spatially resolved transcriptomics provides genetic information in space toward elucidation of the spatial architecture in intact organs and the spatially resolved cell-cell communications mediating tissue homeostasis, development, and disease. To facilitate inference of spatially resolved cell-cell communications, we here present SpaTalk, which relies on a graph network and knowledge graph to model and score the ligand-receptor-target signaling network between spatially proximal cells by dissecting cell-type composition through a non-negative linear model and spatial mapping between single-cell transcriptomic and spatially resolved transcriptomic data. The benchmarked performance of SpaTalk on public single-cell spatial transcriptomic datasets is superior to that of existing inference methods. Then we apply SpaTalk to STARmap, Slide-seq, and 10X Visium data, revealing the in-depth communicative mechanisms underlying normal and disease tissues with spatial structure. SpaTalk can uncover spatially resolved cell-cell communications for single-cell and spot-based spatially resolved transcriptomic data universally, providing valuable insights into spatial inter-cellular tissue dynamics.
 ###### access
 https://github.com/ZJUFanLab/SpaTalk
-
 
 ##### Region-specific denoising identifies spatial co-expression patterns and intra-tissue heterogeneity in spatially resolved transcriptomics data(2022 NC)
 (https://www.nature.com/articles/s41467-022-34567-0)
@@ -125,9 +161,34 @@ STRIDE a computational method to decompose cell types from spatial mixtures by l
 ###### access
 https://github.com/wanglabtongji/STRIDE
 
+##### Explainable multiview framework for dissecting spatial relationships from highly multiplexed data(GB 2022) 
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02663-5
+MISTy, a flexible, scalable, and explainable machine learning framework for extracting relationships from any spatial omics data, from dozens to thousands of measured markers. MISTy builds multiple views focusing on different spatial or functional contexts to dissect different effects. 
+###### access
+the source code of mistyR is publicly available from Bioconductor
 
+##### Phiclust: a clusterability measure for single-cell transcriptomics reveals phenotypic subpopulations(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02590-x
+ phiclust (ϕclust), a clusterability measure derived from random matrix theory that can be used to identify cell clusters with non-random substructure, testably leading to the discovery of previously overlooked phenotypes.
+
+### tools
+##### Giotto: a toolbox for integrative analysis and visualization of spatial expression data(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02286-2 
+Giotto, a comprehensive and open-source toolbox for spatial data analysis and visualization. The analysis module provides end-to-end analysis by implementing a wide range of algorithms for characterizing tissue composition, spatial expression patterns, and cellular interactions.The visualization module allows users to interactively visualize analysis outputs and imaging features.  
+###### access
+ https://rubd.github.io/Giotto_site/
+ 
+ 
 
 ## single cell multi-omics tools
+### methods
+##### Integrated analysis of multimodal single-cell data with structural similarity(NAR 2022) 
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac781/6709246?searchresult=1
+SAILERX is a deep learning framework, for efficient, robust, and flexible analysis of multi-modal single-cell data.Distinct from existing methods, SAILERX can handle both parallel scRNA-seq and scATAC-seq multiome data, single modal scATAC-seq data, and a hybrid of these two types of data.
+###### access
+https://github.com/uci-cbcl/SAILERX
+
+
 ### database
 ##### DISCO: a database of Deeply Integrated human Single-Cell Omics data(NAR 2022) 
 (https://academic.oup.com/nar/article/50/D1/D596/6430491?searchresult=1)
@@ -148,6 +209,31 @@ http://edomics.qnlm.ac
 BIOMEX, a browser-based software. BIOMEX integrates state-of-the-art statistical tools and field-tested algorithms into a flexible but well-defined workflow that accommodates metabolomics, transcriptomics, proteomics, mass cytometry and single cell data from different platforms and organisms.BIOMEX guides the user through omics-tailored analyses, such as data pretreatment and normalization, dimensionality reduction, differential and enrichment analysis, pathway mapping, clustering, marker analysis, trajectory inference, meta-analysis and others.
 ###### access
 https://carmelietlab.sites.vib.be/en/biomex
+
+
+## other tools
+##### Gene set enrichment analysis for genome-wide DNA methylation data(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02388-x
+GOmeth and GOregion are new methods for performing unbiased gene set testing following differential methylation analysis. 
+###### access
+Both methods are publicly available in the missMethyl Bioconductor R package.
+The GitHub repository associated with the analysis website is at: https://github.com/Oshlack/methyl-geneset-testing.
+
+##### Integrative analysis of 3604 GWAS reveals multiple novel cell type-specific regulatory associations(GB 2022)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02560-3
+To gain insight into potential functional mechanisms underlying GWAS associations, we developed FORGE2, which is an updated version of the FORGE web tool. FORGE2 uses an expanded atlas of cell type-specific regulatory element annotations, including DNase I hotspots, five histone mark categories and 15 hidden Markov model (HMM) chromatin states, to identify tissue- and cell type-specific signals.
+###### access
+https://forge2.altiusinstitute.org/
+
+##### scMAGeCK links genotypes with multiple phenotypes in single-cell CRISPR screens(GB 2020)
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1928-4
+scMAGeCK, a computational framework to identify genomic elements associated with multiple expression-based phenotypes in CRISPR/Cas9 functional screening that uses single-cell RNA-seq as readout. scMAGeCK outperforms existing methods, identifies genes and enhancers with known and novel functions in cell proliferation, and enables an unbiased construction of genotype-phenotype network.Collectively, scMAGeCK is a novel tool to study genotype-phenotype relationships at a single-cell level.
+###### access
+
+
+
+
+
 
 
 
