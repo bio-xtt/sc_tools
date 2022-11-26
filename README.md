@@ -39,7 +39,27 @@ ScType is a computational platform, which enables data-driven, fully-automated a
 ###### access
 R source-code of the ScType algorithm is available at https://github.com/IanevskiAleksandr/sc-type/. ScType is also freely available as an interactive web-tool at http://sctype.app. 
  
+### tools
+##### scIMC: a platform for benchmarking comparison and visualization analysis of scRNA-seq data imputation methods(NAR 2022)
+(https://academic.oup.com/nar/article/50/9/4877/6582166?searchresult=1)
+scIMC (single-cell Imputation Methods Comparison platform), the first online platform that integrates all available state-of-the-art imputation methods for benchmarking comparison and visualization analysis.
+###### access
+https://server.wei-group.net/scIMC/
+
  
+### database
+##### EmAtlas: a comprehensive atlas for exploring spatiotemporal activation in mammalian embryogenesis(NAR 2022)
+EmAtlas, which collects the most comprehensive multi-omics data and provides multi-scale tools to explore spatiotemporal activation during mammalian embryogenesis. EmAtlas contains data on multiple types of gene expression, chromatin accessibility, DNA methylation, nucleosome occupancy, histone modifications, and transcription factors, which displays the complete spatiotemporal landscape in mouse and human across several time points, involving gametogenesis, preimplantation, even fetus and neonate, and each tissue involves various cell types. To characterize signatures involved in the tissue, cell, genome, gene and protein levels during mammalian embryogenesis, analysis tools on these five scales were developed.
+###### access
+http://bioinfor.imu.edu.cn/ematlas
+
+##### HTCA: a database with an in-depth characterization of the single-cell human transcriptome(NAR 2022)
+(https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac791/6709243?searchresult=1)
+HTCA, an interactive database constructed based on ∼2.3 million high-quality cells from ∼3000 scRNA-seq samples and comprised in-depth phenotype profiles of 19 healthy adult and matching fetal tissues. HTCA provides a one-stop interactive query to gene signatures, transcription factor (TF) activities, TF motifs, receptor–ligand interactions, enriched gene ontology (GO) terms, etc. across cell types in adult and fetal tissues. At the same time, HTCA encompasses single-cell splicing variant profiles of 16 adult and fetal tissues, spatial transcriptomics profiles of 11 adult and fetal tissues, and single-cell ATAC-sequencing (scATAC-seq) profiles of 27 adult and fetal tissues. Besides, HTCA provides online analysis tools to perform major steps in a typical scRNA-seq analysis.
+###### access
+http://www.htcatlas.org/
+
+
 
 ## single-cell epigenomic tools
 ### tools
@@ -99,10 +119,35 @@ Here we present сell2location, a Bayesian model that can resolve fine-grained c
 ###### access
 https://github.com/BayraktarLab/cell2location/
 
+##### STRIDE: accurately decomposing and integrating spatial transcriptomics using single-cell RNA sequencing (NAR 2022) 
+(https://academic.oup.com/nar/article/50/7/e42/6543547?searchresult=1)
+STRIDE a computational method to decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. STRIDE accurately estimated the cell-type proportions and showed balanced specificity and sensitivity compared to existing methods.
+###### access
+https://github.com/wanglabtongji/STRIDE
 
 
 
+## single cell multi-omics tools
+### database
+##### DISCO: a database of Deeply Integrated human Single-Cell Omics data(NAR 2022) 
+(https://academic.oup.com/nar/article/50/D1/D596/6430491?searchresult=1)
+DISCO , a database of Deeply Integrated Single-Cell Omics data. The current release of DISCO integrates more than 18 million cells from 4593 samples, covering 107 tissues/cell lines/organoids, 158 diseases, and 20 platforms.DISCO provides three online tools, namely Online FastIntegration, Online CELLiD, and CellMapper, for users to integrate, annotate, and project uploaded single-cell RNA-seq data onto a selected atlas. Collectively, DISCO is a versatile platform for users to explore published single-cell data and efficiently perform integrated analysis with their own data.
+[FastIntegration, a fast and high-capacity version of Seurat Integration.CELLiD, an atlas guided automatic cell type identification tool.]
+###### access
+https://www.immunesinglecell.org/
 
+##### EDomics: a comprehensive and comparative multi-omics database for animal evo-devo(NAR 2022) 
+(https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac944/6786194#378500188）
+EDomics a comparative multi-omics database for animal evo-devo containing comprehensive genomes, bulk transcriptomes, and single-cell data across 40 representative species, many of which are generally used as model organisms for animal evo-devo study.
+[EDomics provides a systematic view of genomic/transcriptomic information from various aspects, including genome assembly statistics, gene features and families, transcription factors, transposable elements, and gene expressional profiles/networks. It also exhibits spatiotemporal gene expression profiles at a single-cell level, such as cell atlas, cell markers, and spatial-map information. Moreover, EDomics provides highly valuable, customized datasets/resources for evo-devo research, including gene family expansion/contraction, inferred core gene repertoires, macrosynteny analysis for karyotype evolution, and cell type evolution analysis.]
+###### access
+http://edomics.qnlm.ac
+
+##### BIOMEX: an interactive workflow for (single cell) omics data interpretation and visualization(NAR 2020)
+(https://academic.oup.com/nar/article/48/W1/W385/5835814?searchresult=1)
+BIOMEX, a browser-based software. BIOMEX integrates state-of-the-art statistical tools and field-tested algorithms into a flexible but well-defined workflow that accommodates metabolomics, transcriptomics, proteomics, mass cytometry and single cell data from different platforms and organisms.BIOMEX guides the user through omics-tailored analyses, such as data pretreatment and normalization, dimensionality reduction, differential and enrichment analysis, pathway mapping, clustering, marker analysis, trajectory inference, meta-analysis and others.
+###### access
+https://carmelietlab.sites.vib.be/en/biomex
 
 
 
