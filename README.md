@@ -309,6 +309,30 @@ We describe the development and testing of ASHLAR, a Python tool for coordinated
 ###### access
 https://github.com/labsyspharm/ashlar
 
+##### 3D-Cell-Annotator: an open-source active surface tool for single-cell segmentation in 3D microscopy images(Bioinformatics 2020) 
+https://academic.oup.com/bioinformatics/article/36/9/2948/5709038?searchresult=1
+Here, we propose 3D-Cell-Annotator to solve this task using 3D active surfaces together with shape descriptors as prior information in a semi-automated fashion. The software uses the convenient 3D interface of the widely used Medical Imaging Interaction Toolkit (MITK). Results on 3D biological structures (e.g. spheroids, organoids and embryos) show that the precision of the segmentation reaches the level of a human expert.
+###### access
+http://www.3d-cell-annotator.org/
+
+##### cytomapper: an R/Bioconductor package for visualization of highly multiplexed imaging data(Bioinformatics 2020) 
+https://academic.oup.com/bioinformatics/article/36/24/5706/6050702?searchresult=1
+Here, we describe cytomapper, a computational tool written in R, that enables visualization of pixel- and cell-level information obtained by multiplexed imaging.
+###### access
+https://www.bioconductor.org/packages/release/bioc/html/cytomapper.html
+
+##### spatialGE: quantification and visualization of the tumor microenvironment heterogeneity using spatial transcriptomics(Bioinformatics 2022) 
+https://academic.oup.com/bioinformatics/article/38/9/2645/6544582?searchresult=1
+Hence, we have developed spatialGE, a software that provides visualizations and quantification of the tumor microenvironment heterogeneity through gene expression surfaces, spatial heterogeneity statistics that can be compared against clinical information, spot-level cell deconvolution and spatially informed clustering, all using a new data object to store data and resulting analyses simultaneously.
+###### access
+https://github.com/FridleyLab/spatialGE
+
+##### scFeatures: multi-view representations of single-cell and spatial data for disease outcome prediction(Bioinformatics 2022) 
+https://academic.oup.com/bioinformatics/article/38/20/4745/6678979?searchresult=1
+Here, we present scFeatures, an approach that creates interpretable cellular and molecular representations of single-cell and spatial data at the sample level
+###### access
+https://github.com/SydneyBioX/scFeatures
+
 
 ## single cell multi-omics tools
 ### methods
@@ -332,6 +356,10 @@ webSCST is a freely available spatial transcriptomic database and web service th
 webSCST browsers:http://www.webscst.com
 webSCST R package:https://github.com/swsoyee/webSCST
 
+##### High-performance single-cell gene regulatory network inference at scale: the Inferelator 3.0(Bioinformatics 2022)
+In this work, we present the Inferelator 3.0, which has been significantly updated to integrate data from distinct cell types to learn context-specific regulatory networks and aggregate them into a shared regulatory network, while retaining the functionality of the previous versions. The Inferelator is able to integrate the largest single-cell datasets and learn cell-type-specific gene regulatory networks.
+###### access
+https://github.com/flatironinstitute/inferelator
 
 
 
@@ -390,11 +418,11 @@ We present a package (GSEApy) that performs GSEA in either the command line or P
 ###### access
 https://github.com/zqfang/GSEApy
 
-
-
-
-
-
+##### HiCRep.py: fast comparison of Hi-C contact matrices in Python(Bioinformatics 2021)
+https://academic.oup.com/bioinformatics/article/37/18/2996/6133255?searchresult=1
+We introduce a Python implementation of HiCRep and demonstrate that it is much faster and consumes much less memory than the existing R implementation. Furthermore, we give examples of HiCRep’s ability to accurately distinguish replicates from non-replicates and to reveal cell type structure among collections of Hi-C data.
+###### access
+https://github.com/Noble-Lab/hicrep
 
 
 
