@@ -68,7 +68,12 @@ We present pipeComp (), a flexible R framework for pipeline comparison handling 
 ###### access
 https://github.com/plger/pipeComp 
  
- 
+##### Phitest for analyzing the homogeneity of single-cell populations(Bioinformatics 2020) 
+https://academic.oup.com/bioinformatics/article/38/9/2639/6541626?searchresult=1
+We propose a bioinformatics tool named Phitest to analyze the homogeneity of single-cell populations. Phitest is able to distinguish between homogeneous and heterogeneous cell populations, providing an objective and automatic method to optimize the performance of single-cell clustering analysis.
+###### access
+https://github.com/Vivianstats/PhitestR
+
 ### tools
 ##### scIMC: a platform for benchmarking comparison and visualization analysis of scRNA-seq data imputation methods(NAR 2022)
 (https://academic.oup.com/nar/article/50/9/4877/6582166?searchresult=1)
@@ -94,8 +99,49 @@ Here, we present a single-cell aggregation and integration (scAI) approach to in
 ###### access
 MATLAB package: https://github.com/amsszlh/scAI  and R package: https://github.com/sqjin/scAI
 
+##### Interfacing Seurat with the R tidy universe (Bioinformatics 2021)
+https://academic.oup.com/bioinformatics/article/37/22/4100/6283576?searchresult=1
+To provide Seurat with a tidyverse-oriented interface without compromising efficiency, we developed tidyseurat, a lightweight adapter to the tidyverse. Tidyseurat displays cell information as a tibble abstraction, allowing intuitively interfacing Seurat with dplyr, tidyr, ggplot2 and plotly packages powering efficient data manipulation, integration and visualization. Iterative analyses on data subsets are enabled by interfacing with the popular nest-map framework.
+###### access
+https://github.com/stemangiola/tidyseurat
 
- 
+##### ShinyCell: simple and sharable visualization of single-cell gene expression data(Bioinformatics 2021)
+https://academic.oup.com/bioinformatics/article/37/19/3374/6198103?searchresult=1
+In order to help address this we have developed ShinyCell, an R package that converts single-cell RNA sequencing datasets into explorable and shareable interactive interfaces. These interfaces can be easily customized in order to maximize their usability and can be easily uploaded to online platforms to facilitate wider access to published data.
+###### access
+https://github.com/SGDDNB/ShinyCell
+
+##### V-SVA: an R Shiny application for detecting and annotating hidden sources of variation in single-cell RNA-seq data(Bioinformatics 2020)
+https://academic.oup.com/bioinformatics/article/36/11/3582/5771333?searchresult=1
+we developed an R Shiny application [Visual Surrogate Variable Analysis (V-SVA)] that provides a web-browser interface for the identification and annotation of hidden sources of variation in scRNA-seq data. This interactive framework includes tools for discovery of genes associated with detected sources of variation, gene annotation using publicly available databases and gene sets, and data visualization using dimension reduction methods.
+###### access
+https://github.com/nlawlor/V-SVA
+
+##### ScisorWiz: visualizing differential isoform expression in single-cell long-read data(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/38/13/3474/6590641?searchresult=1
+Here, we present ScisorWiz, a streamlined tool to visualize isoform expression differences across single-cell clusters in an informative and easily communicable manner. ScisorWiz achieves this with an easy, fast and reliable method of visualizing differential isoform expression data across multiple clusters and is executable from the command line with the R language
+###### access
+http://github.com/ans4013/ScisorWiz
+
+##### Sciviewer enables interactive visual interrogation of single-cell RNA-Seq data from the Python programming environment(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/37/21/3961/6380550?searchresult=1
+Here, we present the Single-cell Interactive Viewer (Sciviewer), a tool that overcomes this limitation by allowing interactive visual interrogation of embeddings from within Python. Beyond differential expression analysis of user-selected cells, Sciviewer implements a novel method to identify genes varying locally along any user-specified direction on the embedding. Sciviewer enables rapid and flexible iteration between interactive and programmatic modes of scRNA-Seq exploration, illustrating a useful approach for analyzing high-dimensional data.
+###### access
+https://github.com/colabobio/sciviewer
+
+##### Cellsnp-lite: an efficient tool for genotyping single cells(Bioinformatics 2021) 
+https://academic.oup.com/bioinformatics/article/37/23/4569/6272512?searchresult=1 
+Here, we introduce a software, cellsnp-lite, implemented in C/C++ and based on well-supported package htslib, for genotyping in single-cell sequencing data for both droplet and well-based platforms.
+###### access
+https://github.com/single-cell-genetics/cellsnp-lite
+
+##### scTPA: a web tool for single-cell transcriptome analysis of pathway activation signatures(Bioinformatics 2020) 
+https://academic.oup.com/bioinformatics/article/36/14/4217/5841657?searchresult=1
+scTPA, a web-based platform for pathway-based analysis of single-cell RNA-seq data in human and mouse. scTPA incorporates four widely-used gene set enrichment methods to estimate the pathway activation scores of single cells based on a collection of available biological pathways with different functional and taxonomic classifications. 
+###### access
+http://sctpa.bio-data.cn/sctpa
+
+
 ### database
 ##### EmAtlas: a comprehensive atlas for exploring spatiotemporal activation in mammalian embryogenesis(NAR 2022)
 EmAtlas, which collects the most comprehensive multi-omics data and provides multi-scale tools to explore spatiotemporal activation during mammalian embryogenesis. EmAtlas contains data on multiple types of gene expression, chromatin accessibility, DNA methylation, nucleosome occupancy, histone modifications, and transcription factors, which displays the complete spatiotemporal landscape in mouse and human across several time points, involving gametogenesis, preimplantation, even fetus and neonate, and each tissue involves various cell types. To characterize signatures involved in the tissue, cell, genome, gene and protein levels during mammalian embryogenesis, analysis tools on these five scales were developed.
@@ -107,6 +153,8 @@ http://bioinfor.imu.edu.cn/ematlas
 HTCA, an interactive database constructed based on ∼2.3 million high-quality cells from ∼3000 scRNA-seq samples and comprised in-depth phenotype profiles of 19 healthy adult and matching fetal tissues. HTCA provides a one-stop interactive query to gene signatures, transcription factor (TF) activities, TF motifs, receptor–ligand interactions, enriched gene ontology (GO) terms, etc. across cell types in adult and fetal tissues. At the same time, HTCA encompasses single-cell splicing variant profiles of 16 adult and fetal tissues, spatial transcriptomics profiles of 11 adult and fetal tissues, and single-cell ATAC-sequencing (scATAC-seq) profiles of 27 adult and fetal tissues. Besides, HTCA provides online analysis tools to perform major steps in a typical scRNA-seq analysis.
 ###### access
 http://www.htcatlas.org/
+
+
 
 
 
@@ -130,6 +178,24 @@ Neuroscience Multi-Omic Archive (NeMO Archive; nemoarchive.org), which serves as
 ###### access
 Data resources described in this manuscript are available in the NeMO Archive (https://nemoarchive.org/) and NeMO Analytics (https://nemoanalytics.org/).
 
+##### SCAFE: a software suite for analysis of transcribed cis-regulatory elements in single cells(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/38/22/5126/6730725?searchresult=1
+We developed SCAFE—Single-Cell Analysis of Five-prime Ends—a software suite that processes sc-end5-seq data to de novo identify TSS clusters based on multiple logistic regression. It annotates tCREs based on the identified TSS clusters and generates a tCRE-by-cell count matrix for downstream analyses. The software suite consists of a set of flexible tools that could either be run independently or as pre-configured workflows.
+###### access
+https://github.com/chung-lab/SCAFE
+
+##### powerEQTL: an R package and shiny application for sample size and power calculation of bulk tissue and single-cell eQTL analysis(Bioinformatics 2021)
+https://academic.oup.com/bioinformatics/article/37/22/4269/6278296?searchresult=1
+Here, we presented an R package called powerEQTL with flexible functions to estimate power, minimal sample size or detectable minor allele frequency for both bulk tissue and single-cell eQTL analysis. A user-friendly, program-free web application is also provided, allowing users to calculate and visualize the parameters interactively.
+###### access
+powerEQTL R package: https://cran.r-project.org/web/packages/powerEQTL/
+powerEQTL shiny application:https://bwhbioinfo.shinyapps.io/powerEQTL/
+
+##### scGAD: single-cell gene associating domain scores for exploratory analysis of scHi-C data(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/38/14/3642/6598798?searchresult=1
+We present single-cell gene associating domain (scGAD) scores as a dimension reduction and exploratory analysis tool for scHi-C data. scGAD enables summarization at the gene unit while accounting for inherent gene-level genomic biases. Low-dimensional projections with scGAD capture clustering of cells based on their 3D structures. Significant chromatin interactions within and between cell types can be identified with scGAD. We further show that scGAD facilitates the integration of scHi-C data with other single-cell data modalities by enabling its projection onto reference low-dimensional embeddings. This multi-modal data integration provides an automated and refined cell-type annotation for scHi-C data.
+###### access
+https://sshen82.github.io/BandNorm/articles/scGAD-tutorial.html
 
 ### methods
 ##### MIRA: joint regulatory modeling of multimodal expression and chromatin accessibility in single cells(NM 2022)
@@ -167,7 +233,25 @@ https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02583-w
 We introduce CellPhy, a maximum likelihood framework for inferring phylogenetic trees from somatic single-cell single-nucleotide variants. CellPhy leverages a finite-site Markov genotype model with 16 diploid states and considers amplification error and allelic dropout.
 ###### access
 https://github.com/amkozlov/cellphy
- 
+
+##### SCONCE: a method for profiling copy number alterations in cancer evolution using single-cell whole genome sequencing(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/38/7/1801/6515610?searchresult=1
+We present a theoretical framework to use tumor evolutionary history to accurately call CNAs in a principled manner. To model the tumor evolutionary process and account for technical noise from low coverage single-cell whole genome sequencing data, we developed SCONCE, a method based on a Hidden Markov Model to analyze read depth data from tumor cells using matched normal cells as negative controls. Using a combination of public data sets and simulations, we show SCONCE accurately decodes copy number profiles, and provides a useful tool for understanding tumor evolution.
+###### access
+https://github.com/NielsenBerkeleyLab/sconce
+
+##### SCONCE: a method for profiling copy number alterations in cancer evolution using single-cell whole genome sequencing(Bioinformatics 2022)
+We present a theoretical framework to use tumor evolutionary history to accurately call CNAs in a principled manner. To model the tumor evolutionary process and account for technical noise from low coverage single-cell whole genome sequencing data, we developed SCONCE, a method based on a Hidden Markov Model to analyze read depth data from tumor cells using matched normal cells as negative controls.
+###### access
+https://github.com/NielsenBerkeleyLab/sconce
+
+##### SimSCSnTree: a simulator of single-cell DNA sequencing data(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/38/10/2912/6551250?searchresult=1
+We report on a new single-cell DNA sequence simulator, SimSCSnTree, which generates an evolutionary tree of cells and evolves single nucleotide variants (SNVs) and copy number aberrations (CNAs) along its branches. Data generated by the simulator can be used to benchmark tools for single-cell genomic analyses, particularly in cancer where SNVs and CNAs are ubiquitous.
+###### access
+https://github.com/compbiofan/SimSCSnTree.git 
+
+
 
 ## ST tools
 ### methods
@@ -212,15 +296,19 @@ Spatial transcriptomic studies are reaching single-cell spatial resolution, with
 https://www.starmapresources.org/data 
 
 
-
 ### tools
 ##### Giotto: a toolbox for integrative analysis and visualization of spatial expression data(GB 2022)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02286-2 
 Giotto, a comprehensive and open-source toolbox for spatial data analysis and visualization. The analysis module provides end-to-end analysis by implementing a wide range of algorithms for characterizing tissue composition, spatial expression patterns, and cellular interactions.The visualization module allows users to interactively visualize analysis outputs and imaging features.  
 ###### access
- https://rubd.github.io/Giotto_site/
- 
- 
+https://rubd.github.io/Giotto_site/
+
+##### Stitching and registering highly multiplexed whole-slide images of tissues and tumors using ASHLAR(Bioinformatics 2022) 
+https://academic.oup.com/bioinformatics/article/38/19/4613/6668278?searchresult=1
+We describe the development and testing of ASHLAR, a Python tool for coordinated stitching and registration of 103 or more individual multiplexed images to generate accurate whole-slide mosaics. ASHLAR reads image formats from most commercial microscopes and slide scanners, and we show that it performs better than existing open-source and commercial software. ASHLAR outputs standard OME-TIFF images that are ready for analysis by other open-source tools and recently developed image analysis pipelines.
+###### access
+https://github.com/labsyspharm/ashlar
+
 
 ## single cell multi-omics tools
 ### methods
@@ -229,6 +317,22 @@ https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac781/6709246?sea
 SAILERX is a deep learning framework, for efficient, robust, and flexible analysis of multi-modal single-cell data.Distinct from existing methods, SAILERX can handle both parallel scRNA-seq and scATAC-seq multiome data, single modal scATAC-seq data, and a hybrid of these two types of data.
 ###### access
 https://github.com/uci-cbcl/SAILERX
+
+##### PyLiger: scalable single-cell multi-omic data integration in Python(Bioinformatics 2022) 
+https://academic.oup.com/bioinformatics/article/38/10/2946/6561542?searchresult=1
+PyLiger, a Python package for integrating single-cell multi-omic datasets. PyLiger offers faster performance than the previous R implementation (2–5× speedup), interoperability with AnnData format, flexible on-disk or in-memory analysis capability and new functionality for gene ontology enrichment analysis. The on-disk capability enables analysis of arbitrarily large single-cell datasets using fixed memory.
+###### access
+https://github.com/welch-lab/pyliger
+
+### tools
+##### webSCST: an interactive web application for single-cell RNA-sequencing data and spatial transcriptomic data integration(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/38/13/3488/6590646?searchresult=1
+webSCST is a freely available spatial transcriptomic database and web service that aims to conveniently allow users to obtain predicted spatial information using scRNA-seq data. Users with raw scRNA-seq data can utilize webSCST by quality-controlling the scRNA-seq data, matching with spatial datasets in the webSCST database and finally obtaining the integrated results through four popular integrating tools. In the future, we plan to add more publicly available published spatial sequencing data to our database and add newly developed integration tools to maintain webSCST as an up-to-date resource.
+###### access
+webSCST browsers:http://www.webscst.com
+webSCST R package:https://github.com/swsoyee/webSCST
+
+
 
 
 ### database
@@ -280,7 +384,38 @@ By analyzing published single-cell diploid Hi-C datasets, we find partner genes 
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02796-7
 Single-cell DNA methylation profiling currently suffers from excessive noise and/or limited cellular throughput. We developed scTAM-seq, a targeted bisulfite-free method for profiling up to 650 CpGs in up to 10,000 cells per experiment, with a dropout rate as low as 7%. 
 
-##### 
+##### GSEApy: a comprehensive package for performing gene set enrichment analysis in Python(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac757/6847088?searchresult=1
+We present a package (GSEApy) that performs GSEA in either the command line or Python environment. GSEApy uses a Rust implementation to enable it to calculate the same enrichment statistic as GSEA for a collection of pathways. 
+###### access
+https://github.com/zqfang/GSEApy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
