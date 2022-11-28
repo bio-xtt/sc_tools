@@ -322,6 +322,12 @@ Here, we present Squidpy, a Python framework that brings together tools from omi
 ###### access
 https://github.com/theislab/squidpy
 
+##### SpatialInferCNV(2022 cell)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9365699/
+Spatially resolved transcriptomics has emerged as a genome-wide analysis of gene expression to explore tissues in an unsupervised manner. In this study we infer genome-wide copy-number variations (CNV) from spatially resolved mRNA profiles in situ. Gene expression has previously been used to infer CNVs in single cells, successfully identifying regions of chromosomal gain and loss. Here we expand into a spatial modality, generating CNV calls in each spatial region represented by barcoded spots.
+###### access
+https://github.com/aerickso/SpatialInferCNV
+
 
 ##### RNALocate v2.0: an updated resource for RNA subcellular localization with increased coverage and annotation(NAR 2022)
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728251/
