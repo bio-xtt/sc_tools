@@ -267,6 +267,19 @@ a computational tool called Missing-value Imputation and in silico region detect
 ###### access
 https://github.com/linhuawang/MIST.git
 
+##### Elucidating tumor heterogeneity from spatially resolved transcriptomics data by multi-view graph collaborative learning(2022 NC)
+Here, we propose stMVC, a multi-view graph collaborative-learning model that integrates histology, gene expression, spatial location, and biological contexts in analyzing SRT data by attention. Specifically, stMVC adopting semi-supervised graph attention autoencoder separately learns view-specific representations of histological-similarity-graph or spatial-location-graph, and then simultaneously integrates two-view graphs for robust representations through attention under semi-supervision of biological contexts. stMVC outperforms other tools in detecting tissue structure, inferring trajectory relationships, and denoising on benchmark slices of human cortex. Particularly, stMVC identifies disease-related cell-states and their transition cell-states in breast cancer study, which are further validated by the functional and survival analysis of independent clinical data.
+###### access
+https://github.com/cmzuo11/stMVC
+
+##### DestVI identifies continuums of cell types in spatial transcriptomics data(2022 NBT)
+https://www.nature.com/articles/s41587-022-01272-8
+Here we introduce DestVI, a Bayesian model for multi-resolution deconvolution of cell types in ST data. Unlike other methods, DestVI learns both discrete cell-type-specific profiles and continuous sub-cell-type latent variations using a conditional deep generative model.
+
+###### access
+https://scvi-tools.org
+
+
 ##### Cell2location maps fine-grained cell types in spatial transcriptomics(2022 NBT)
 (https://www.nature.com/articles/s41587-021-01139-4)
 Here we present сell2location, a Bayesian model that can resolve fine-grained cell types in spatial transcriptomic data and create comprehensive cellular maps of diverse tissues. Cell2location accounts for technical sources of variation and borrows statistical strength across locations, thereby enabling the integration of single-cell and spatial transcriptomics with higher sensitivity and resolution than existing tools.
@@ -303,6 +316,19 @@ Giotto, a comprehensive and open-source toolbox for spatial data analysis and vi
 ###### access
 https://rubd.github.io/Giotto_site/
 
+##### Squidpy: a scalable framework for spatial omics analysis(NM 2022)
+https://pubmed.ncbi.nlm.nih.gov/35102346/
+Here, we present Squidpy, a Python framework that brings together tools from omics and image analysis to enable scalable description of spatial molecular data, such as transcriptome or multivariate proteins. Squidpy provides efficient infrastructure and numerous analysis methods that allow to efficiently store, manipulate and interactively visualize spatial omics data. Squidpy is extensible and can be interfaced with a variety of already existing libraries for the scalable analysis of spatial omics data.
+###### access
+https://github.com/theislab/squidpy
+
+
+##### RNALocate v2.0: an updated resource for RNA subcellular localization with increased coverage and annotation(NAR 2022)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728251/
+RNALocate v2.0 is a repository of integrated experimentally validated information on subcellular localization of RNA through manual curation of the literature and five other resources, along with analyses of 35 datasets from the Gene Expression Omnibus (GEO) under a common framework It also supports three RNA subcellular localization prediction tools: DM3Loc, iLoc-lncRNA and iLoc-mRNA. In total, RNALocate v2.0 integrates more than 213 000 RNA subcellular localization entries at 171 locations across 104 species. 
+###### access
+http://www.rnalocate.org/ 
+
 ##### Stitching and registering highly multiplexed whole-slide images of tissues and tumors using ASHLAR(Bioinformatics 2022) 
 https://academic.oup.com/bioinformatics/article/38/19/4613/6668278?searchresult=1
 We describe the development and testing of ASHLAR, a Python tool for coordinated stitching and registration of 103 or more individual multiplexed images to generate accurate whole-slide mosaics. ASHLAR reads image formats from most commercial microscopes and slide scanners, and we show that it performs better than existing open-source and commercial software. ASHLAR outputs standard OME-TIFF images that are ready for analysis by other open-source tools and recently developed image analysis pipelines.
@@ -332,6 +358,24 @@ https://academic.oup.com/bioinformatics/article/38/20/4745/6678979?searchresult=
 Here, we present scFeatures, an approach that creates interpretable cellular and molecular representations of single-cell and spatial data at the sample level
 ###### access
 https://github.com/SydneyBioX/scFeatures
+
+##### PySpacell: A Python Package for Spatial Analysis of Cell Images(2020)
+https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.23955
+We developed a toolbox that allows one to test for the presence of a spatial effect in microscopy images of adherent cells and estimate the spatial scale of this effect. The proposed Python module can be used for any light microscopy images of cells as well as other types of single-cell data such as in situ transcriptomics or metabolomics. The input format of our package matches standard output formats from image analysis tools such as CellProfiler, Fiji, or Icy and thus makes our toolbox easy and straightforward to use, yet offering a powerful statistical approach for a wide range of applications
+###### access
+https://pypi.org/project/pySpacell/
+
+##### Spacemake: processing and analysis of large-scale spatial transcriptomics data(Gigascience 2022)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9295369/
+Here, we present spacemake, a modular, robust, and scalable spatial transcriptomics pipeline built in Snakemake and Python. Spacemake is designed to handle all major spatial transcriptomics data sets and can be readily configured for other technologies. It can process and analyze several samples in parallel, even if they stem from different experimental methods.Spacemake's unified framework enables reproducible data processing from raw sequencing data to automatically generated downstream analysis reports. 
+###### access
+https://github.com/rajewsky-lab/spacemake
+
+##### Region-specific denoising identifies spatial co-expression patterns and intra-tissue heterogeneity in spatially resolved transcriptomics data(NC 2022)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9663444/
+Spatially resolved transcriptomics is a relatively new technique that maps transcriptional information within a tissue. Analysis of these datasets is challenging because gene expression values are highly sparse due to dropout events, and there is a lack of tools to facilitate in silico detection and annotation of regions based on their molecular content. Therefore, we develop a computational tool for detecting molecular regions and region-based Missing value Imputation for Spatially Transcriptomics (MIST).
+###### access
+https://github.com/linhuawang/MIST.git
 
 
 ## single cell multi-omics tools
@@ -424,10 +468,11 @@ We introduce a Python implementation of HiCRep and demonstrate that it is much f
 ###### access
 https://github.com/Noble-Lab/hicrep
 
-
-
-
-
+##### PaintSHOP enables the interactive design of transcriptome- and genome-scale oligonucleotide FISH experiments(NM 2022)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8349872/
+Here, we introduce Paint Server and Homology Optimization Pipeline (PaintSHOP), an interactive platform for the design of oligo FISH experiments. PaintSHOP enables researchers to identify probes for their experimental targets efficiently, to incorporate additional necessary sequences such as primer pairs, and to easily generate files documenting library design. PaintSHOP democratizes and standardizes the process of designing complex probe sets for the oligo FISH community.
+###### access
+The source code for the PaintSHOP web application is available as Supplementary Software 1 and at https://github.com/beliveau-lab/PaintSHOP. The source code for the Homology Optimization Pipeline is available as Supplementary Software 2 and at https://github.com/beliveau-lab/PaintSHOP_pipeline.
 
 
 
