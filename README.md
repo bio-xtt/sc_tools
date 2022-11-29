@@ -383,6 +383,12 @@ Spatially resolved transcriptomics is a relatively new technique that maps trans
 ###### access
 https://github.com/linhuawang/MIST.git
 
+### database
+##### STOmicsDB: a database of Spatial Transcriptomic data(biorxiv 2022)
+https://www.biorxiv.org/content/10.1101/2022.03.11.481421v2
+Spatial Transcript Omics DataBase (STOmics DB) is a comprehensive repository of literature and data sets related to spatial transcriptomics topics, and provides convenient tools for data viewing, analysis, and visualization.
+###### access
+https://db.cngb.org/stomics/
 
 ## single cell multi-omics tools
 ### methods
