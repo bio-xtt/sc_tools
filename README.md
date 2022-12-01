@@ -38,7 +38,13 @@ https://github.com/JiaqiLiZju/Nvwa/
 ScType is a computational platform, which enables data-driven, fully-automated and ultra-fast cell-type identification based solely on given scRNA-seq data, combined with our comprehensive cell marker database as background information.
 ###### access
 R source-code of the ScType algorithm is available at https://github.com/IanevskiAleksandr/sc-type/. ScType is also freely available as an interactive web-tool at http://sctype.app. 
- 
+
+##### SciBet as a portable and fast single cell type identifier (2021 NC)
+https://www.nature.com/articles/s41467-020-15523-2/
+Fast, robust and technology-independent computational methods are needed for supervised cell type annotation of single-cell RNA sequencing data. We present SciBet, a supervised cell type identifier that accurately predicts cell identity for newly sequenced cells with order-of-magnitude speed advantage. We enable web client deployment of SciBet for rapid local computation without uploading local data to the server. Facing the exponential growth in the size of single cell RNA datasets, this user-friendly and cross-platform tool can be widely useful for single cell type identification.
+###### access
+https://github.com/PaulingLiu/scibet
+
 ##### CellWalker integrates single-cell and bulk data to resolve regulatory elements across cell types in complex tissues(GB 2021)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02279-1
 CellWalker, a method that integrates single-cell open chromatin (scATAC-seq) data with gene expression (RNA-seq) and other data types using a network model that simultaneously improves cell labeling in noisy scATAC-seq and annotates cell type-specific regulatory elements in bulk data. 
