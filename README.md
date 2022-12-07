@@ -568,10 +568,12 @@ Here, we introduce Paint Server and Homology Optimization Pipeline (PaintSHOP), 
 ###### access
 The source code for the PaintSHOP web application is available as Supplementary Software 1 and at https://github.com/beliveau-lab/PaintSHOP. The source code for the Homology Optimization Pipeline is available as Supplementary Software 2 and at https://github.com/beliveau-lab/PaintSHOP_pipeline.
 
+##### VariantStore: an index for large-scale genomic variant search(GB 2022)
 
-
-
-
+https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02442-8
+Efficiently scaling genomic variant search indexes to thousands of samples is computationally challenging due to the presence of multiple coordinate systems to avoid reference biases.We present VariantStore, a system that indexes genomic variants from multiple samples using a variation graph and enables variant queries across any sample-specific coordinate system. VariantStore supports querying variants occurring between two positions across a chromosome based on any sample coordinate system.
+###### access
+https://github.com/Kingsford-Group/variantstore 
 
 
 
