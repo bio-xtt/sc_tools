@@ -575,21 +575,36 @@ Efficiently scaling genomic variant search indexes to thousands of samples is co
 ###### access
 https://github.com/Kingsford-Group/variantstore 
 
+### pangenome tools
+##### panRGP: a pangenome-based method to predict genomic islands and explore their diversity(Bioinformatics 2022)
+https://academic.oup.com/bioinformatics/article/36/Supplement_2/i651/6055938?login=false
+We present here the panRGP method that predicts RGPs using pangenome graphs made of all available genomes for a given species. It allows the study of thousands of genomes in order to access the diversity of RGPs and to predict spots of insertions. It gave the best predictions when benchmarked along other GI detection tools against a reference dataset. In addition, we illustrated its use on metagenome assembled genomes by redefining the borders of the leuX tRNA hotspot, a well-studied spot of insertion in Escherichia coli. panRPG is a scalable and reliable tool to predict GIs and spots making it an ideal approach for large comparative studies.
+###### access
+https://github.com/labgem/PPanGGOLiN
 
+##### GRAFIMO: Variant and haplotype aware motif scanning on pangenome graphs(2021)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8519448/
+Here we present GRAFIMO (GRAph-based Finding of Individual Motif Occurrences), a command-line tool for the scanning of known TF DNA motifs represented as Position Weight Matrices (PWMs) in VGs(pangenome variation graphs). GRAFIMO extends the standard PWM scanning procedure by considering variations and alternative haplotypes encoded in a VG. 
+###### access
+https://github.com/pinellolab/GRAFIMO
 
+##### GreenPhylDB v5: a comparative pangenomic database for plant genomes(NAR 2021)
+Until now, comparative genomics databases have not fully taken advantage of these new datasets. Here, we present an updated version of the GreenPhylDB, a database that features multiple genomes for 19 species (e.g. rice, maize, banana, grape and cacao) as well as 27 other species with single reference genomes, for a total of 46 genomes. Publicly available genomes were processed to generate representative pangenes (i.e. a set of representative or consensus sequences) for species that were used in multi-species sequence clustering. Resulting gene families were functionally annotated and analysed with orthology detection methods.
+###### access
+https://www.greenphyl.org
 
+##### GBZ file format for pangenome graphs(Bioinformatics 2022)
+We propose the GBZ file format based on data structures used in the Giraffe short-read aligner. The format provides good compression, and the files can be efficiently loaded into in-memory data structures. We provide compression and decompression tools and libraries for using GBZ graphs, and we show that they can be efficiently used on a variety of systems.
+###### access
+https://github.com/jltsiren/gbwtgraph 
 
+##### A graph-based approach for the visualisation and analysis of bacterial pangenomes(BMC 2022)
+Starting with the output of standard pangenome analysis tools, we describe the generation and analysis of interactive, 3D network graphs to explore the structure of bacterial populations, the distribution of genes across a population, and the syntenic order in which those genes occur, in the new open-source network analysis platform, Graphia. Both the analysis and the visualisation are scalable to datasets of thousands of genome sequences.
+该工具提供了网络聚类的方式来展示泛基因组数据
+###### access
+Graphia is a free, open-source software available from graphia.app under a GNU General Public License v3.0. GraPPLE scripts are available on GitHub (JDHarlingLee/GraPPLE).
 
-
-
-
-
-
-
-
-
-
-
-
+##### A Review of Pangenome Tools and Recent Studies
+https://pubmed.ncbi.nlm.nih.gov/32633917/
 
 
