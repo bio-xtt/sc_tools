@@ -299,6 +299,21 @@ We report on a new single-cell DNA sequence simulator, SimSCSnTree, which genera
 ###### access
 https://github.com/compbiofan/SimSCSnTree.git 
 
+##### Fast analysis of scATAC-seq data using a predefined set of genomic regions(2022)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7308914/
+We found that kallisto does not introduce biases in quantification of known peaks; cells groups identified are consistent with the ones identified from standard method. We also found that cell identification is robust when analysis is performed using DHS-derived reference in place of de novo identification of ATAC peaks. Lastly, we found that our approach is suitable for reliable quantification of gene activity based on scATAC-seq signal, thus allows for efficient labelling of cell groups based on marker genes.
+###### access
+https://github.com/vgiansanti/Kallisto-scATAC
+
+##### IReNA: Integrated regulatory network analysis of single-cell transcriptomes and chromatin accessibility profiles(iSince 2022)
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9619378/
+Here, we developed integrated regulatory network analysis (IReNA) for network inference through the integrated analysis of scRNA-seq and scATAC-seq data, network modularization, transcription factor enrichment, and construction of simplified intermodular regulatory networks. Moreover, IReNA outperformed currently available methods in identifying known regulators.
+###### access
+https://github.com/jiang-junyao/IReNA
+
+
+
+
 
 
 ## ST tools
