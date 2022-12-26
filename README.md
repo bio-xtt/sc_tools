@@ -173,6 +173,12 @@ scTPA, a web-based platform for pathway-based analysis of single-cell RNA-seq da
 ###### access
 http://sctpa.bio-data.cn/sctpa
 
+##### CAbiNet: Joint visualization of cells and genes based on a gene-cell graph(BioRxiv 2022) 
+https://www.biorxiv.org/content/10.1101/2022.12.20.521232v1.full
+Here we propose “Correspondence Analysis based Biclustering on Networks” (CAbiNet) as a novel approach to jointly visualize cells and genes by a non-linear embedding approach, called biMAP. The biMAP allows for easy and interactive exploration of cells and their corresponding marker genes in a single plot. CabiNet additionally offers an intuitive way to perform biclustering jointly on cells and genes, providing a simplified workflow to annotate cell types on the biMAP.
+###### access
+https://github.com/VingronLab/CAbiNet
+
 
 ### database
 ##### EmAtlas: a comprehensive atlas for exploring spatiotemporal activation in mammalian embryogenesis(NAR 2022)
@@ -464,6 +470,15 @@ Spatially resolved transcriptomics is a relatively new technique that maps trans
 ###### access
 https://github.com/linhuawang/MIST.git
 
+##### TissUUmaps 3 Tools for Visualization & Quality Control in Large-scale Multiplex Tissue Analysis(biorxiv 2022)
+https://www.biorxiv.org/content/10.1101/2022.12.01.518716v1.full
+we present three plugins for visualization and quality control in large-scale multiplex tissue analysis of microscopy images. The first plugin focuses on the quality of cell staining, the second one was made for interactive evaluation and comparison of different cell classification results, and the third one serves for reviewing interactions of different cell types.
+###### access
+https://tissuumaps.github.io/
+
+
+
+
 ### database
 ##### STOmicsDB: a database of Spatial Transcriptomic data(biorxiv 2022)
 
@@ -589,6 +604,36 @@ https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02442-8
 Efficiently scaling genomic variant search indexes to thousands of samples is computationally challenging due to the presence of multiple coordinate systems to avoid reference biases.We present VariantStore, a system that indexes genomic variants from multiple samples using a variation graph and enables variant queries across any sample-specific coordinate system. VariantStore supports querying variants occurring between two positions across a chromosome based on any sample coordinate system.
 ###### access
 https://github.com/Kingsford-Group/variantstore 
+
+##### circHiC: circular visualization of Hi-C data and integration of genomic data(BioRxiv 2022)
+Here, we fill this gap and propose a Python library, built upon the widely used Matplotlib library, to display Hi-C data in circular strips, together with the possibility to overlay genomic data. The proposed tools are light and fast, aiming to facilitate the exploration and understanding of bacterial chromosome structuring data. The library further includes the possibility to handle linear chromosomes, providing a fresh way to display and explore eukaryotic data.
+###### access
+https://github.com/TrEE-TIMC/circHiC
+
+
+##### LDBlockShow: a fast and convenient tool for visualizing linkage disequilibrium and haplotype blocks based on variant call format files(BioRxiv 2020)
+https://www.biorxiv.org/content/10.1101/2020.06.14.151332v1.full
+LDBlockShow is a fast and convenient tool for visualizing LD and haplotype blocks based on VCF files. It supports the generation of LD heatmap and regional association statistics or genomic annotation results simultaneously. LDBlockShow can also compress the SVG files with large number of SNPs and support subgroup analysis.
+###### access
+ https://github.com/BGI-shenzhen/LDBlockShow
+
+##### RADSex: a computational workflow to study sex determination using Restriction Site-Associated DNA Sequencing data(BioRxiv 2020)
+https://www.biorxiv.org/content/10.1101/2020.04.22.054866v1.full
+Here, we present RADSex, a computational analysis workflow designed to study the genetic basis of sex determination using RAD-Seq data. RADSex is simple to use, requires few computational resources, makes no prior assumptions about type of sex-determination system or structure of the sex locus, and offers convenient visualization through a dedicated R package.
+###### access
+https://github.com/SexGenomicsToolkit/radsex
+
+##### Rcirc: an R package for circRNA analyses and visualization(BioRxiv 2020)
+https://www.biorxiv.org/content/10.1101/2020.03.06.980151v1.full
+Here, we developed the R package ‘Rcirc’ for further analyses of circRNA after its detection. Rcirc identifies the coding ability of circRNA and visualize various aspects of this feature. It also provides general visualization for both single circRNAs and meta-features of thousands of circRNAs. Rcirc was designed as a user-friendly tool that covers many highly automatic functions without running many complicated processes by users.
+###### access
+https://github.com/PSSUN/Rcirc
+
+##### 3DGV: Immersive Exploration of 3D Genome Structures using Virtual Reality(BioRxiv 2019)
+we introduce the Virtual Reality 3D Genome Viewer (3DGV), an open platform to experiment and develop VR solutions to explore 3D genome structures.
+###### access
+ http://3dgv.cs.mcgill.ca/
+
 
 ### pangenome tools
 ##### panRGP: a pangenome-based method to predict genomic islands and explore their diversity(Bioinformatics 2022)
